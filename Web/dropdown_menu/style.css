@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Leelawadee UI";
+}
+
+#starter{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+#starter li {
+    display: inline-block;
+    background-color: rgba(7, 7, 7, 0.1);
+}
+
+#starter a {
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+    line-height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#starter ul {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+
+#starter li:hover > ul {
+    display:inherit;
+}
+
+#starter ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+#starter ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
