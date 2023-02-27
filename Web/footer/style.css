@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7878b4;
+}
+
+
+.logo-footer {
+    height: 60px;
+    padding: 20px;
+}
+
+.logo-footer img {
+    height: 40px
+}
+
+.links-footer {
+
+}
+
+.links-footer a{
+    text-decoration: none;
+    color: black;
+    font-family: "Arial";
+}
+
+.links-footer a:hover{
+    color: blue;
+}
+
