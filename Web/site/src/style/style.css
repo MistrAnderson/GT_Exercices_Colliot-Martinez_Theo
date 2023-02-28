@@ -1,0 +1,106 @@
+:root {
+    --mid-blue: #4979FA;
+    --light-blue: #369BE3;
+    --lighter-blue: #35EAFF;
+    --dark-blue: #853CFB;
+    --darker-blue: #3F36E3;
+}
+
+*{
+    margin: 0;
+    font-family: "Leelawadee UI";
+}
+
+body {
+    background-color: var(--lighter-blue);
+}
+
+.landing-page {
+    display: flex;
+    padding: 30px;
+    height: 100vh;
+}
+
+.landing-page .text-container {
+    margin: 60px 30px;
+}
+
+.text-container h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.text-container p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+.ratio-container {
+    background-color: var(--light-blue);
+    padding: 30px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratio-container *{
+    font-family: "Comic Sans MS";
+}
+
+.about-container {
+    margin: 30px;
+    padding: 0 120px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.about-container #thick{
+    font-weight: bolder;
+}
+
+.hist-container {
+    display: flex;
+    margin: 30px;
+    padding: 0 120px;
+}
+
+.hist-container .text-container{
+    width: 40vw;
+}
+
+.hist-container .img-containter{
+    margin-top: 50px;
+    width: 40vw;
+}
+
+.hist-container img {
+    width: 100%;
+}
+
+.text-container a {
+    color: var(--darker-blue);
+    text-decoration: none;
+}
+
+.elon-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-elon .img-containter{
+    height: 200px;
+    width: 100vw;
+}
+
+.big-elon img {
+    height: 100%;
+    width: 100%;
+}
